@@ -1,0 +1,187 @@
+/**
+ * Float Layout Activity
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+  background: #eee;
+}
+
+body {
+  align-content: center;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333;
+}
+
+.titleBar {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  float: left;
+  margin-left: 0%;
+  color:#eee;
+  width: 30%;
+  background: rgb(113, 212, 219);
+}
+
+/* Need this for padding */
+section {
+  padding: 20px;
+  background: #eee;
+}
+
+button {
+    background-color: #eee;
+    border: none;
+    color: rgb(168, 168, 168);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.about {
+  float: right;
+  margin-right: 5px;
+  width: 11%;
+  color: #fff;
+  margin-right: 0%;
+}
+
+.portfolio {
+  float: right;
+  width: 11%;
+  color: #fff;
+}
+
+.contact {
+  float: right;
+  width: 11%;
+  color: #fff;
+}
+
+#full {
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  background: rgb(255, 255, 255);
+}
+
+aside {
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #fff;
+  border: 1px solid #eee;
+}
+
+input {
+  color: rgb(97, 97, 97);
+  text-align: left;
+}
+
+p {
+    text-align: left;
+    font-size: 18px;
+}
+
+h2 {
+  text-align: left;
+  margin-left: 0px;
+  font-size: 32px;
+  line-height: 32px;
+  color: rgb(113, 212, 219);
+}
+
+footer {
+  padding: 10px;
+  clear: both;
+  color: white;
+  background: rgb(53, 53, 53);
+  font-size: 12px;
+}
+
+/* Form Styling */
+/***********************************************************/
+
+form {
+  background: #fff;
+  width: 100%;
+  /* To see the outline of the form */
+  padding: 1em;
+}
+
+form div + div {
+  width: 100%;
+  margin-top: 1em;
+}
+
+label {
+  font-size: 24px;
+  background: #fff;
+  width: 100%;
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  text-align: left;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 100%;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  width: 100%;
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  color: rgb(97, 97, 97);
+
+  text-align: left;
+  width: 100%;
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 200px;
+}
+
+.button2 {
+  margin-left: 0px;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(82, 82, 82);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+button2 {
+  width: 180px;
+  float: left;
+  padding: 6px;
+  margin-top: 20px;
+  margin-left: 0px;
+  background-color: rgb(113, 212, 219);
+  border: none;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+}

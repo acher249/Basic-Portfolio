@@ -70,16 +70,12 @@ button {
   clear: both;
 }
 
-#full {
-  height: 100%;
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  background: rgb(255, 255, 255);
+.whiteBackground{
+  background: white;
 }
 
-#fullTwo {
-  height: 600px;
+#full {
+  height: 100%;
   width: 100%;
   overflow: auto;
   clear: both;

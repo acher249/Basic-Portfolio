@@ -74,6 +74,20 @@ button {
   background: white;
 }
 
+.background {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.banner{
+  float: left;
+  width: 200px;
+  text-align: center;
+  background: green;
+  color: white;
+}
+
 #full {
   height: 100%;
   width: 100%;

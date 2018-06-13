@@ -21,8 +21,10 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   float: left;
   margin-left: 0%;
+  margin-bottom: 20px;
   color:#eee;
   width: 30%;
+  height: 70px;
   background: rgb(113, 212, 219);
 }
 
@@ -33,14 +35,15 @@ section {
 }
 
 button {
-    background-color: #eee;
-    border: none;
-    color: rgb(168, 168, 168);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+  background-color: #eee;
+  border: none;
+  color: rgb(168, 168, 168);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: right;
 }
 
 .about {
@@ -75,10 +78,19 @@ button {
   background: rgb(255, 255, 255);
 }
 
+#fullTwo {
+  height: 600px;
+  width: 100%;
+  overflow: auto;
+  clear: both;
+  background: rgb(255, 255, 255);
+}
+
 .image {
   padding: 20px;
   margin-bottom: 20px;
   float: left;
+  background: #fff;
 }
 
 aside {

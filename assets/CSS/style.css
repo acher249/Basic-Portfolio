@@ -71,6 +71,11 @@ button {
   background: rgb(255, 255, 255);
 }
 
+.imageOne {
+  margin-bottom: 20px;
+  float: left;
+}
+
 aside {
   float: left;
   margin-left: 20px;

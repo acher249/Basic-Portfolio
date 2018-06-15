@@ -42,9 +42,18 @@ button {
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   float: right;
+  /* Shadow */
+  -moz-box-shadow:    inset 0 0 10px #7c7c7c;
+  -webkit-box-shadow: inset 0 0 10px #7c7c7c;
+  box-shadow:         inset 0 0 10px #7c7c7c;
+}
+
+/* psuedo class */
+button:hover {
+  background: rgb(212, 212, 212);
+  color: white;
 }
 
 .about {
@@ -76,6 +85,44 @@ button {
 }
 
 .backgroundImage1 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.backgroundImage2 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.backgroundImage3 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.backgroundImage4 {
+  margin: 20px;
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-size: 200px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+}
+
+.backgroundImage5 {
+  margin: 20px;
+  float: left;
   width: 200px;
   height: 200px;
   background-size: 200px 200px;
@@ -83,15 +130,23 @@ button {
 }
 
 
-.banner{
+/* Use Google Fonts */
+.banner {
   font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
+  text-align: center;
   font-size: 6;
   margin-top: 140px;
   float: left;
+  height: 50px;
   width: 200px;
   text-align: center;
-  background: green;
+  background: rgb(91, 156, 91);
   color: white;
+}
+
+.bannerText {
+  line-height: 50px;
+  background: rgba(0, 0, 0, 0);
 }
 
 #full {
@@ -220,6 +275,5 @@ button2 {
   color: rgb(255, 255, 255);
   text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 18px;
 }

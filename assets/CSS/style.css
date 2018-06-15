@@ -6,19 +6,20 @@
   box-sizing: border-box;
   text-align: center;
   background: #eee;
+  font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
 }
 
 body {
   align-content: center;
   width: 70%;
   margin-left: 15%;
-  font-size: 24px;
   line-height: 32px;
   color: #333;
 }
 
 .titleBar {
   font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 24pt;
   float: left;
   margin-left: 0%;
   margin-bottom: 20px;
@@ -74,13 +75,18 @@ button {
   background: white;
 }
 
-.background {
+.backgroundImage1 {
   width: 200px;
   height: 200px;
+  background-size: 200px 200px;
   background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
 }
 
+
 .banner{
+  font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
+  font-size: 6;
+  margin-top: 140px;
   float: left;
   width: 200px;
   text-align: center;

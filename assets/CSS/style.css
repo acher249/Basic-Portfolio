@@ -5,7 +5,6 @@
 * {
   box-sizing: border-box;
   text-align: center;
-  background: #eee;
   font-family: "Titillium+Web", Arial, Helvetica, sans-serif;
 }
 
@@ -15,6 +14,7 @@ body {
   margin-left: 15%;
   line-height: 32px;
   color: #333;
+  background: #eee;
 }
 
 .titleBar {
@@ -44,10 +44,6 @@ button {
   text-decoration: none;
   font-size: 16px;
   float: right;
-  /* Shadow */
-  -moz-box-shadow:    inset 0 0 10px #7c7c7c;
-  -webkit-box-shadow: inset 0 0 10px #7c7c7c;
-  box-shadow:         inset 0 0 10px #7c7c7c;
 }
 
 /* psuedo class */
@@ -78,6 +74,7 @@ button:hover {
 
 .row{
   clear: both;
+  background: white;
 }
 
 .whiteBackground{
@@ -89,7 +86,7 @@ button:hover {
   float: left;
   width: 200px;
   height: 200px;
-  background-size: 200px 200px;
+  background-size: 400px 200px;
   background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
 }
 
@@ -98,8 +95,8 @@ button:hover {
   float: left;
   width: 200px;
   height: 200px;
-  background-size: 200px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1507181179506-598491b53db4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=299b6fae13eb39086f5bb28029c61760&auto=format&fit=crop&w=1489&q=80")
 }
 
 .backgroundImage3 {
@@ -107,8 +104,8 @@ button:hover {
   float: left;
   width: 200px;
   height: 200px;
-  background-size: 200px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1523872135651-514afbd57180?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=2c58d885254aa2991a2f14d3c06a5d40&auto=format&fit=crop&w=1246&q=80")
 }
 
 .backgroundImage4 {
@@ -116,8 +113,8 @@ button:hover {
   float: left;
   width: 200px;
   height: 200px;
-  background-size: 200px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1486520299386-6d106b22014b?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b8e3bc7d37546268c95f0885ea821717&auto=format&fit=crop&w=1350&q=80")
 }
 
 .backgroundImage5 {
@@ -125,8 +122,8 @@ button:hover {
   float: left;
   width: 200px;
   height: 200px;
-  background-size: 200px 200px;
-  background-image: url("https://images.unsplash.com/photo-1507010618954-137246650c6d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f9fa530f683920605113cd2915473bf&auto=format&fit=crop&w=634&q=80")
+  background-size: 400px 200px;
+  background-image: url("https://images.unsplash.com/photo-1491719302159-fcdf021abd5c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=edec06b3daef51c2ad631da14044445e&auto=format&fit=crop&w=1373&q=80")
 }
 
 
@@ -191,6 +188,10 @@ h2 {
 }
 
 footer {
+  position: fixed;
+  width: 70%;
+  margin-right: 15%;
+  bottom: 0px;
   padding: 10px;
   clear: both;
   color: white;
@@ -225,7 +226,7 @@ label {
 input, textarea {
   /* To make sure that all text fields have the same font settings
      By default, textareas have a monospace font */
-  font: 1em sans-serif;
+  font: 18pt sans-serif;
 
   /* To give the same size to all text fields */
   width: 100%;
